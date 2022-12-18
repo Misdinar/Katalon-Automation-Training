@@ -21,11 +21,19 @@ WebUI.openBrowser('https://www.psegameshop.com/')
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_password'), 'xvU!xYEV7BaiUBG')
+WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_genre'), 'Action', false)
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_console'), 'PC', false)
 
-WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Username is required.')
+WebUI.selectOptionByValue(findTestObject('Page_Home - PS Enterprise Gameshop/select_hobby'), 'Culinary', false)
+
+WebUI.check(findTestObject('Page_1 new message/input_Female'))
+
+WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input__email'), 'xcsjfrq556@qemail.org')
+
+WebUI.click(findTestObject('Page_1 new message/button_Register'))
+
+WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Please enter an account password.')
 
 WebUI.closeBrowser()
 

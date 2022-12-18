@@ -21,11 +21,9 @@ WebUI.openBrowser('https://www.psegameshop.com/')
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_password'), 'xvU!xYEV7BaiUBG')
+WebUI.click(findTestObject('Page_1 new message/button_Register'))
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
-
-WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Username is required.')
+WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Please provide a valid email address.')
 
 WebUI.closeBrowser()
 

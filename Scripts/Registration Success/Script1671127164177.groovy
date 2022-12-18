@@ -29,7 +29,7 @@ WebUI.selectOptionByValue(findTestObject('Page_Home - PS Enterprise Gameshop/sel
 
 WebUI.check(findTestObject('Page_1 new message/input_Female'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input__email'), 'acgsihb877@qemail.org')
+WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input__email'), '79312cutshawleonne@fakemail.io')
 
 WebUI.setText(findTestObject('Page_1 new message/input_password_reg'), 'TestPassword123.')
 

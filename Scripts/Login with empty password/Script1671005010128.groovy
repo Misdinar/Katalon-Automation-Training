@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://www.psegameshop.com/')
+
+WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+
+WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_username'), 'mastomcsc23@gmail.com')
+
+WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
+
+WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: The password field is empty.')
+
+WebUI.closeBrowser()
+

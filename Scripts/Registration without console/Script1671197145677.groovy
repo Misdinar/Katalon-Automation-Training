@@ -21,11 +21,23 @@ WebUI.openBrowser('https://www.psegameshop.com/')
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_password'), 'xvU!xYEV7BaiUBG')
+WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_genre'), 'Action', false)
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.selectOptionByValue(findTestObject('Page_Home - PS Enterprise Gameshop/select_hobby'), 'Culinary', false)
 
-WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Username is required.')
+WebUI.check(findTestObject('Page_1 new message/input_Female'))
+
+WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input__email'), 'kaylianna.harju@freemailonline.us')
+
+WebUI.setText(findTestObject('Page_1 new message/input_password_reg'), 'TestPassword123.')
+
+WebUI.setText(findTestObject('Page_1 new message/input_confirm_password'), 'TestPassword123.')
+
+WebUI.click(findTestObject('Page_1 new message/button_Register'))
+
+result = WebUI.getText(findTestObject('Page_1 new message/pesan_register'))
+
+WebUI.verifyNotMatch(result, 'Error: Favorite console is required.', false)
 
 WebUI.closeBrowser()
 
