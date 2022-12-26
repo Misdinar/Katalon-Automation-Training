@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with empty username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ea9a5f0-0b99-441c-ac2e-7cbc4654b3de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8618431e-61b0-485a-9218-ec7c1339e0d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8618431e-61b0-485a-9218-ec7c1339e0d1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

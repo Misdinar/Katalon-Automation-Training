@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.psegameshop.com/')
+WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_username'), 'mastomcsc23@gmail.com')
+WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_username'), email)
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
 

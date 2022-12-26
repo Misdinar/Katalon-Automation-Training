@@ -21,15 +21,9 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_username'), email)
-
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_password'), password)
-
 WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
-
-WebUI.verifyElementText(findTestObject('Page_My Account - PS Enterprise Gameshop/strong_username'), 'mastomcsc23')
+WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Username is required.')
 
 WebUI.closeBrowser()
 
