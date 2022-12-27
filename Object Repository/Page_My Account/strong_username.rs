@@ -6,15 +6,19 @@
    <elementGuidId>850c7828-031c-40b6-8977-b010785d50d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.woocommerce-MyAccount-content > p > strong</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//main[@id='main']/div[2]/div/div/div[2]/div/div/p/strong</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'mastomcsc23' or . = 'mastomcsc23')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.woocommerce-MyAccount-content > p > strong</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>ade571fe-6c7b-4d67-b3dd-47455f15b270</webElementGuid>
+      <webElementGuid>92314060-278b-4e5a-be3f-1a974f532017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>mastomcsc23</value>
-      <webElementGuid>6838c5c2-f147-49a7-903e-24ae293f3f09</webElementGuid>
+      <webElementGuid>aa0414de-5ac0-4ec3-a169-93a1d8b0f16d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;page-wrapper my-account mb&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row vertical-tabs&quot;]/div[@class=&quot;large-9 col&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-MyAccount-content&quot;]/p[1]/strong[1]</value>
-      <webElementGuid>f099b9f4-a513-445a-abe9-0ce97551f452</webElementGuid>
+      <webElementGuid>41d4eb55-5496-4e30-9cdc-c651a1021fdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div[2]/div/div/p/strong</value>
-      <webElementGuid>cdf612ad-b60b-4cd8-9c37-f4ab58af6af6</webElementGuid>
+      <webElementGuid>ac25d36b-8333-4c87-9cf0-572fb476b263</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::strong[1]</value>
-      <webElementGuid>fe4870f4-4e1e-433e-8e04-0ee225e96b9b</webElementGuid>
+      <webElementGuid>19b61bce-65a7-4763-8d1e-067237a0d5d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wishlist'])[2]/following::strong[1]</value>
-      <webElementGuid>aa0d61fe-dccd-4d3d-9540-1391654361af</webElementGuid>
+      <webElementGuid>28cb6f80-4c2a-4efe-ba8e-6f5d483ef21e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='mastomcsc23'])[2]/preceding::strong[1]</value>
-      <webElementGuid>19b42003-c100-4667-870f-49aaab0e0573</webElementGuid>
+      <webElementGuid>43ae40c3-a0ec-4f8e-ac6e-5e17897ba174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::strong[2]</value>
-      <webElementGuid>3ac399e3-4cf3-4bd0-81d9-e0235d726962</webElementGuid>
+      <webElementGuid>d2f08f34-5ed3-4279-a8c2-3afb8b8dfb97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/p/strong</value>
-      <webElementGuid>626fd64e-4bf2-4085-a134-d3b6be43b054</webElementGuid>
+      <webElementGuid>a9a0167b-1fd4-4f10-88cc-05245eb88bac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = 'mastomcsc23' or . = 'mastomcsc23')]</value>
-      <webElementGuid>2564e4c8-5c32-4a96-b46f-ea58d69b6f54</webElementGuid>
+      <webElementGuid>3edc9e56-96a2-4447-ae1a-2c5b1542aef2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
