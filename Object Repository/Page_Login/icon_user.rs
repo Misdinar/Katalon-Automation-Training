@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_user</name>
+   <tag></tag>
+   <elementGuidId>1d655eac-cec8-4874-ab14-76612d1f278b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='masthead']/div/div[4]/ul/li[3]/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;masthead&quot;)/div[@class=&quot;header-inner flex-row container logo-left medium-logo-center&quot;]/div[@class=&quot;flex-col hide-for-medium flex-right&quot;]/ul[@class=&quot;header-nav header-nav-main nav nav-right  nav-line-bottom nav-uppercase&quot;]/li[@class=&quot;account-item has-icon&quot;]/a[@class=&quot;nav-top-link nav-top-not-logged-in is-small&quot;]/i[@class=&quot;icon-user&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ec5af862-b607-42f1-bba7-d0eeb5842f4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-user</value>
+      <webElementGuid>e9aa03e0-b332-4345-9a18-b77768870a0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;masthead&quot;)/div[@class=&quot;header-inner flex-row container logo-left medium-logo-center&quot;]/div[@class=&quot;flex-col hide-for-medium flex-right&quot;]/ul[@class=&quot;header-nav header-nav-main nav nav-right  nav-line-bottom nav-uppercase&quot;]/li[@class=&quot;account-item has-icon&quot;]/a[@class=&quot;nav-top-link nav-top-not-logged-in is-small&quot;]/i[@class=&quot;icon-user&quot;]</value>
+      <webElementGuid>5c90ce4b-f898-4c4b-a8e3-c4d5fbb9ae5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='masthead']/div/div[4]/ul/li[3]/a/i</value>
+      <webElementGuid>01f8e7c8-9fa3-430c-aad3-efcb977e54da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ul/li[3]/a/i</value>
+      <webElementGuid>850f8d43-dddb-4be1-95bd-553e71300c52</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

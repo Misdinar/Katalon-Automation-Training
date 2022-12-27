@@ -19,25 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.psegameshop.com/')
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_genre'), 'Action', false)
+WebUI.verifyElementText(findTestObject('Page_Register/Header_Register'), 'REGISTER')
 
-WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_console'), 'PC', false)
+WebUI.selectOptionByValue(findTestObject('Page_Register/select_genre'), genre, false)
 
-WebUI.check(findTestObject('Page_1 new message/input_Female'))
+WebUI.selectOptionByValue(findTestObject('Page_Register/select_console'), console, false)
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input__email'), '4a4344c5fd@3gd33c.com')
+if (gender == 'Female') {
+    WebUI.check(findTestObject('Page_Register/input_Female'))
+} else {
+    WebUI.check(findTestObject('Page_Register/input_Male'))
+}
 
-WebUI.setText(findTestObject('Page_1 new message/input_password_reg'), 'TestPassword123.')
+WebUI.setText(findTestObject('Page_Register/input_email_reg'), email)
 
-WebUI.setText(findTestObject('Page_1 new message/input_confirm_password'), 'TestPassword123.')
+WebUI.setText(findTestObject('Page_Register/input_password_reg'), password)
 
-WebUI.click(findTestObject('Page_1 new message/button_Register'))
+WebUI.setText(findTestObject('Page_Register/input_confirm_password'), confirm_password)
 
-result = WebUI.getText(findTestObject('Page_1 new message/pesan_register'))
+WebUI.click(findTestObject('Page_Register/button_Register'))
 
-WebUI.verifyNotMatch(result, 'Error: Favorite console is required.', false)
+result = WebUI.getText(findTestObject('Page_Register/text_register'))
+
+WebUI.verifyNotMatch(result, message, false)
 
 WebUI.closeBrowser()
 

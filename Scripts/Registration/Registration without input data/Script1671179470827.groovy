@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.psegameshop.com/')
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.click(findTestObject('Page_1 new message/button_Register'))
+WebUI.verifyElementText(findTestObject('Page_Register/Header_Register'), 'REGISTER')
 
-WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Please provide a valid email address.')
+WebUI.click(findTestObject('Page_Register/button_Register'))
+
+WebUI.verifyElementText(findTestObject('Page_Register/text_register'), message)
 
 WebUI.closeBrowser()
 

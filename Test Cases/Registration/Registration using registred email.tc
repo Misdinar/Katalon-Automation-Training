@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Registration without email</name>
+   <name>Registration using registred email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e3abb513-1fbc-49b0-89f6-c3754ad30ef1</testCaseGuid>
+   <testCaseGuid>9187f06d-f8c2-4859-b437-1018f9adbef8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7c75ebd1-f5ed-406f-a974-89f6c7997f4c</variableId>
+      <variableId>0aa5f8db-6ae7-4d36-9a1f-ad94801ef853</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8aa3ec1c-7216-4f97-a818-aa6eb01b68a5</variableId>
+      <variableId>956c4e20-8538-425e-a74e-68392366876c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>80b78b54-c4fe-4d0f-aa27-de5876f1379e</variableId>
+      <variableId>2336fc6a-62fb-4be1-bcb4-97b912a35a92</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e5924279-c63e-4889-8d3d-94a83c90eb4e</variableId>
+      <variableId>4ce3f509-0cab-4f3c-983e-cde4d6534afe</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6fb826e6-d04c-483e-90ed-40374ac87ffa</variableId>
+      <variableId>01a19244-6380-42e3-b429-2fe62776d9ea</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5e436459-06e2-4345-862c-25465bbd20c3</variableId>
+      <variableId>fc669e60-2454-4c4f-bf3f-d3a88099061c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>93aebfa1-095d-4812-a726-f3937e8bce28</variableId>
+      <variableId>40dde440-b682-45b7-9af0-2d5410538dfa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>737525db-6099-449b-b976-098296cedc2d</variableId>
+      <variableId>46831c50-b52b-4572-958b-7c2e480bc0b7</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7c75ebd1-f5ed-406f-a974-89f6c7997f4c</id>
+      <id>0aa5f8db-6ae7-4d36-9a1f-ad94801ef853</id>
       <masked>false</masked>
-      <name>result</name>
+      <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8aa3ec1c-7216-4f97-a818-aa6eb01b68a5</id>
+      <id>956c4e20-8538-425e-a74e-68392366876c</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>80b78b54-c4fe-4d0f-aa27-de5876f1379e</id>
+      <id>2336fc6a-62fb-4be1-bcb4-97b912a35a92</id>
       <masked>false</masked>
       <name>confirm_password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e5924279-c63e-4889-8d3d-94a83c90eb4e</id>
+      <id>4ce3f509-0cab-4f3c-983e-cde4d6534afe</id>
       <masked>false</masked>
       <name>genre</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6fb826e6-d04c-483e-90ed-40374ac87ffa</id>
-      <masked>false</masked>
-      <name>console</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>5e436459-06e2-4345-862c-25465bbd20c3</id>
+      <id>01a19244-6380-42e3-b429-2fe62776d9ea</id>
       <masked>false</masked>
       <name>hobby</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>93aebfa1-095d-4812-a726-f3937e8bce28</id>
+      <id>fc669e60-2454-4c4f-bf3f-d3a88099061c</id>
       <masked>false</masked>
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>'Error: Please provide a valid email address.'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>737525db-6099-449b-b976-098296cedc2d</id>
+      <id>40dde440-b682-45b7-9af0-2d5410538dfa</id>
+      <masked>false</masked>
+      <name>console</name>
+   </variable>
+   <variable>
+      <defaultValue>'Error: An account is already registered with your email address. Please log in.'</defaultValue>
+      <description></description>
+      <id>46831c50-b52b-4572-958b-7c2e480bc0b7</id>
       <masked>false</masked>
       <name>message</name>
    </variable>

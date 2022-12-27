@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_user_new</name>
+   <tag></tag>
+   <elementGuidId>96d7aa62-ba9d-44aa-be5d-8d4515d0bc82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='masthead']/div/div[4]/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;masthead&quot;)/div[@class=&quot;header-inner flex-row container logo-left medium-logo-center&quot;]/div[@class=&quot;flex-col hide-for-medium flex-right&quot;]/ul[@class=&quot;header-nav header-nav-main nav nav-right  nav-line-bottom nav-uppercase&quot;]/li[@class=&quot;account-item has-icon&quot;]/a[@class=&quot;nav-top-link nav-top-not-logged-in is-small&quot;][count(. | //a[@href = 'https://www.psegameshop.com/my-account/']) = count(//a[@href = 'https://www.psegameshop.com/my-account/'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-top-link.nav-top-not-logged-in.is-small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>77a047c8-5a59-4496-ac1f-8ee5c4273c4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.psegameshop.com/my-account/</value>
+      <webElementGuid>b7d70d42-b113-4570-9166-bdb5f13ba291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-top-link nav-top-not-logged-in is-small</value>
+      <webElementGuid>5ed7c1f2-f86b-42ba-88c3-b1d1afb351db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-open</name>
+      <type>Main</type>
+      <value>#login-form-popup</value>
+      <webElementGuid>0ab96979-d9b5-44da-83ca-72259ecd888e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;masthead&quot;)/div[@class=&quot;header-inner flex-row container logo-left medium-logo-center&quot;]/div[@class=&quot;flex-col hide-for-medium flex-right&quot;]/ul[@class=&quot;header-nav header-nav-main nav nav-right  nav-line-bottom nav-uppercase&quot;]/li[@class=&quot;account-item has-icon&quot;]/a[@class=&quot;nav-top-link nav-top-not-logged-in is-small&quot;]</value>
+      <webElementGuid>e995586e-2a89-4ec6-a352-360d82daa001</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='masthead']/div/div[4]/ul/li[3]/a</value>
+      <webElementGuid>68d6843f-5c13-4d19-b826-989a693dfa9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coming Soon'])[1]/following::a[2]</value>
+      <webElementGuid>63d3c8c7-4f68-4dc8-b5fc-37f7333140ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Release'])[1]/following::a[3]</value>
+      <webElementGuid>20c4b11a-6dc4-4980-a78d-e224516a278c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::a[2]</value>
+      <webElementGuid>b2f7eb20-af27-4158-b95f-2fc075ab807d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for:'])[2]/preceding::a[2]</value>
+      <webElementGuid>6b78ebb1-7baf-478a-b8f5-eab64df86226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.psegameshop.com/my-account/')]</value>
+      <webElementGuid>d4a7fbf5-e226-4f63-8322-591021c8fce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ul/li[3]/a</value>
+      <webElementGuid>48a54e78-2fc1-4694-8ffc-96d322442803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.psegameshop.com/my-account/']</value>
+      <webElementGuid>54e8a158-5fb1-4505-9852-9917b291b38b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

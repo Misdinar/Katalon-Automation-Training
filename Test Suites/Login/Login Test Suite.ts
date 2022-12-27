@@ -90,4 +90,32 @@
       <testCaseId>Test Cases/Login/Login with empty username and password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ee94b04f-b99e-49c8-b09e-4865b2673fca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login wrong email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ddfc56ec-de06-4cb0-b003-429b9d0f5208</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/Data_Invalid_Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ddfc56ec-de06-4cb0-b003-429b9d0f5208</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>a68c854c-3131-4926-93bc-1d248bceb2c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ddfc56ec-de06-4cb0-b003-429b9d0f5208</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>7491dc2c-d3a2-4730-938f-94ff89fc3d9e</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

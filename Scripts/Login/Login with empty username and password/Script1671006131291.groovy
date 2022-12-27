@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.verifyElementText(findTestObject('Page_Login/Header_Login'), 'LOGIN')
 
-WebUI.verifyElementText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'), 'Error: Username is required.')
+WebUI.click(findTestObject('Page_Login/button_Log in'))
+
+WebUI.verifyElementText(findTestObject('Page_Login/text_error_new'), 'Error: Username is required.')
 
 WebUI.closeBrowser()
 

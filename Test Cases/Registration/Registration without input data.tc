@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>730cbf50-219b-40cc-820d-628921947783</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>811fe1be-a5e1-485f-8523-1f8126109a94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Error: Please provide a valid email address.'</defaultValue>
+      <description></description>
+      <id>811fe1be-a5e1-485f-8523-1f8126109a94</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
 </TestCaseEntity>

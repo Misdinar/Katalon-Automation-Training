@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Header_Register</name>
+   <tag></tag>
+   <elementGuidId>66952369-f0da-4c37-9b3b-541e50d831c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='customer_login']/div[2]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.account-register-inner > h3.uppercase</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>7af95ef1-730c-4882-99a4-e37bfa59c90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>uppercase</value>
+      <webElementGuid>5cafc76d-7e4a-4e85-97cf-2b4aa9002e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register</value>
+      <webElementGuid>fbbeb670-e638-4cd8-93c0-f215030a00dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;customer_login&quot;)/div[@class=&quot;col-2 large-6 col pb-0&quot;]/div[@class=&quot;account-register-inner&quot;]/h3[@class=&quot;uppercase&quot;]</value>
+      <webElementGuid>a44a3437-ad1c-4821-9ac1-164e893956bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='customer_login']/div[2]/div/h3</value>
+      <webElementGuid>c39cf7b9-5d0f-4021-9df9-00643c4a1567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lost your password?'])[1]/following::h3[1]</value>
+      <webElementGuid>55cc6e98-c9da-4b9a-9ef7-384b58d166ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/following::h3[1]</value>
+      <webElementGuid>4bfd8400-1411-4d2f-8580-33856299e95f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::h3[1]</value>
+      <webElementGuid>7dac450b-0b5e-4934-977a-4f7906373f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Register']/parent::*</value>
+      <webElementGuid>a32ae38c-705a-4397-835b-4a5bb4e34e6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3</value>
+      <webElementGuid>802f63e6-c381-4e7a-9014-330cd81f01f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Register' or . = 'Register')]</value>
+      <webElementGuid>683b01ca-6fcf-4764-a63d-339efd3c26f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

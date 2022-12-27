@@ -19,27 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.psegameshop.com/')
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_genre'), 'Action', false)
+WebUI.verifyElementText(findTestObject('Page_Register/Header_Register'), 'REGISTER')
 
-WebUI.selectOptionByValue(findTestObject('Page_1 new message/select_console'), 'PC', false)
+WebUI.selectOptionByValue(findTestObject('Page_Register/select_genre'), genre, false)
 
-WebUI.selectOptionByValue(findTestObject('Page_Home - PS Enterprise Gameshop/select_hobby'), 'Culinary', false)
+WebUI.selectOptionByValue(findTestObject('Page_Register/select_console'), console, false)
 
-WebUI.check(findTestObject('Page_1 new message/input_Female'))
+WebUI.selectOptionByValue(findTestObject('Page_Register/select_hobby'), hobby, false)
 
-WebUI.setText(findTestObject('Page_1 new message/input_password_reg'), 'TestPassword123.')
+if (gender == 'Female') {
+    WebUI.check(findTestObject('Page_Register/input_Female'))
+} else {
+    WebUI.check(findTestObject('Page_Register/input_Male'))
+}
 
-WebUI.setText(findTestObject('Page_1 new message/input_confirm_password'), 'TestPassword123.')
+WebUI.setText(findTestObject('Page_Register/input_password_reg'), password)
 
-WebUI.click(findTestObject('Page_1 new message/button_Register'))
+WebUI.setText(findTestObject('Page_Register/input_confirm_password'), confirm_password)
 
-result = WebUI.getText(findTestObject('Page_Home - PS Enterprise Gameshop/div_Error'))
+WebUI.click(findTestObject('Page_Register/button_Register'))
+
+result = WebUI.getText(findTestObject('Page_Register/text_register'))
 
 System.out.println(result)
 
-WebUI.verifyMatch(result, 'Error: Please provide a valid email address.', false)
+WebUI.verifyMatch(result, message, false)
 
 WebUI.closeBrowser()
 

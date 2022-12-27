@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_username'), email)
+WebUI.setText(findTestObject('Page_Register/input_username'), email)
 
-WebUI.setText(findTestObject('Page_Home - PS Enterprise Gameshop/input_password'), password)
+WebUI.setText(findTestObject('Page_Login/input_password'), password)
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.click(findTestObject('Page_Login/button_Log in'))
 
-WebUI.click(findTestObject('Page_Home - PS Enterprise Gameshop/icon_user'))
+WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.verifyElementText(findTestObject('Page_My Account - PS Enterprise Gameshop/strong_username'), 'mastomcsc23')
+WebUI.verifyElementText(findTestObject('Page_My Account/strong_username'), 'mastomcsc23')
 
 WebUI.closeBrowser()
 

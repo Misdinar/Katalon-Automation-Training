@@ -17,33 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.psegameshop.com/')
+WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Page_Login/icon_user'))
 
-WebUI.verifyElementText(findTestObject('Page_Register/Header_Register'), 'REGISTER')
+WebUI.verifyElementText(findTestObject('Page_Login/Header_Login'), 'LOGIN')
 
-WebUI.selectOptionByValue(findTestObject('Page_Register/select_genre'), genre, false)
+WebUI.setText(findTestObject('Page_Register/input_username'), email)
 
-WebUI.selectOptionByValue(findTestObject('Page_Register/select_hobby'), hobby, false)
+WebUI.setText(findTestObject('Page_Login/input_password'), password)
 
-if (gender == 'Female') {
-    WebUI.check(findTestObject('Page_Register/input_Female'))
-} else {
-    WebUI.check(findTestObject('Page_Register/input_Male'))
-}
+WebUI.click(findTestObject('Page_Login/button_Log in'))
 
-WebUI.setText(findTestObject('Page_Register/input_email_reg'), email)
-
-WebUI.setText(findTestObject('Page_Register/input_password_reg'), password)
-
-WebUI.setText(findTestObject('Page_Register/input_confirm_password'), confirm_password)
-
-WebUI.click(findTestObject('Page_Register/button_Register'))
-
-result = WebUI.getText(findTestObject('Page_Register/text_register'))
-
-WebUI.verifyNotMatch(result, message, false)
+WebUI.verifyElementText(findTestObject('Page_Login/text_error_new'), 'Unknown email address. Check again or try your username.')
 
 WebUI.closeBrowser()
 
